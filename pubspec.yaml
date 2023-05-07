@@ -1,0 +1,26 @@
+name: BraveHeart
+description: Learn the basics of using Material Components by building a simple app with core components.
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.17.0
+
+  cupertino_icons: ^1.0.5
+  shrine_images: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  # agar gambar dapat di panggil
+  uses-material-design: true
+  assets:
+    - assets/diamond.png
+    - assets/brh.png
+    - assets/brave.jpg
